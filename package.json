@@ -1,12 +1,16 @@
 {
   "name": "app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
-    "start": "npx ts-node ."
+    "start:dev": "npx ts-node ./src",
+    "start": "node ./dist",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "authors": [
+    "Redhouane Sobaihi <redouane.sobaihi@live.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.0.27",
